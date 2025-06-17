@@ -6,23 +6,22 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'TechTales Storyteller | Contador de Cuentos de Ciencia Ficción',
-  description: 'A bilingual science fiction storyteller chatbot that creates unique stories about emerging technologies. Un contador de cuentos de ciencia ficción bilingüe que crea historias únicas sobre tecnologías emergentes.',
-  keywords: 'science fiction, storyteller, chatbot, AI, emerging technologies, bilingual, English, Spanish, sci-fi stories',
-  authors: [{ name: 'TechTales' }],
+  title: 'Creador de cuentos de Ciencia Ficción | Historias del futuro con IA',
+  description: 'Descubre historias únicas de ciencia ficción sobre tecnologías emergentes. Un contador de cuentos impulsado por inteligencia artificial que crea narrativas personalizadas del futuro.',
+  keywords: 'ciencia ficción, cuentos, historias, inteligencia artificial, IA, tecnologías emergentes, narrativas del futuro, español',
+  authors: [{ name: 'Creador de cuentos de Ciencia Ficción' }],
   viewport: 'width=device-width, initial-scale=1',
   robots: 'index, follow',
   openGraph: {
-    title: 'TechTales Storyteller | Contador de Cuentos de Ciencia Ficción',
-    description: 'A bilingual science fiction storyteller chatbot that creates unique stories about emerging technologies.',
+    title: 'Creador de cuentos de Ciencia Ficción',
+    description: 'Descubre historias únicas de ciencia ficción sobre tecnologías emergentes impulsadas por IA.',
     type: 'website',
-    locale: 'en_US',
-    alternateLocale: 'es_ES',
+    locale: 'es_ES',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'TechTales Storyteller',
-    description: 'A bilingual science fiction storyteller chatbot',
+    title: 'Creador de cuentos de Ciencia Ficción',
+    description: 'Historias del futuro impulsadas por inteligencia artificial',
   },
 }
 
@@ -32,7 +31,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <head>
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -45,4 +44,3 @@ export default function RootLayout({
     </html>
   )
 }
-

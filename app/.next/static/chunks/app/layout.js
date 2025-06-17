@@ -32,7 +32,7 @@ var __dirname = "/";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("569b1ba973ec");
+/* harmony default export */ __webpack_exports__["default"] = ("299c7175e0da");
 if (true) { module.hot.accept() }
 
 

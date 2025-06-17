@@ -192,16 +192,16 @@ function Home() {
     (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
         setMounted(true);
     }, []);
-    const handleLanguageSelect = (language)=>{
-        const chatbotUrl = "https://apps.abacus.ai/chatllm/?appId=8abf1a73a&hideTopBar=2";
+    const handleStartStories = ()=>{
+        const chatbotUrl = "https://apps.abacus.ai/chatllm/?appId=8abf1a73a&hideTopBar=2&lang=es&initialMessage=" + encodeURIComponent("\xa1Hola! Me gustar\xeda escuchar un cuento de ciencia ficci\xf3n en espa\xf1ol sobre tecnolog\xeda emergente.");
         window.open(chatbotUrl, "_blank", "noopener,noreferrer");
     };
     if (!mounted) {
         return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("div", {
-            children: "Loading..."
+            children: "Cargando..."
         }, void 0, false, {
             fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-            lineNumber: 20,
+            lineNumber: 22,
             columnNumber: 12
         }, this);
     }
@@ -215,27 +215,27 @@ function Home() {
                         className: "absolute top-20 left-10 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl animate-pulse"
                     }, void 0, false, {
                         fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                        lineNumber: 27,
+                        lineNumber: 29,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("div", {
                         className: "absolute bottom-20 right-10 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl animate-pulse delay-1000"
                     }, void 0, false, {
                         fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                        lineNumber: 28,
+                        lineNumber: 30,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("div", {
                         className: "absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-cyan-500/5 rounded-full blur-3xl animate-pulse delay-500"
                     }, void 0, false, {
                         fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                        lineNumber: 29,
+                        lineNumber: 31,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                lineNumber: 26,
+                lineNumber: 28,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("div", {
@@ -244,12 +244,12 @@ function Home() {
                     className: "absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent"
                 }, void 0, false, {
                     fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                    lineNumber: 34,
+                    lineNumber: 36,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                lineNumber: 33,
+                lineNumber: 35,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("div", {
@@ -289,25 +289,25 @@ function Home() {
                                         fill: "currentColor",
                                         viewBox: "0 0 24 24",
                                         children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("path", {
-                                            d: "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                                            d: "M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"
                                         }, void 0, false, {
                                             fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                            lineNumber: 53,
+                                            lineNumber: 55,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                        lineNumber: 52,
+                                        lineNumber: 54,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                    lineNumber: 51,
+                                    lineNumber: 53,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                lineNumber: 45,
+                                lineNumber: 47,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.h1, {
@@ -324,10 +324,10 @@ function Home() {
                                     duration: 0.8
                                 },
                                 className: "text-4xl md:text-6xl font-bold bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent mb-6 leading-tight",
-                                children: "TechTales Storyteller"
+                                children: "Creador de cuentos de Ciencia Ficci\xf3n"
                             }, void 0, false, {
                                 fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                lineNumber: 59,
+                                lineNumber: 61,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.p, {
@@ -344,10 +344,10 @@ function Home() {
                                     duration: 0.8
                                 },
                                 className: "text-xl md:text-2xl text-gray-300 mb-4 font-light",
-                                children: "Contador de Cuentos de Ciencia Ficci\xf3n"
+                                children: "Historias del futuro impulsadas por IA"
                             }, void 0, false, {
                                 fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                lineNumber: 69,
+                                lineNumber: 71,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div, {
@@ -367,18 +367,18 @@ function Home() {
                                 children: [
                                     /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("p", {
                                         className: "text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed",
-                                        children: "Discover unique science fiction stories about emerging technologies"
-                                    }, void 0, false, {
-                                        fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                        lineNumber: 85,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("p", {
-                                        className: "text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed",
                                         children: "Descubre historias \xfanicas de ciencia ficci\xf3n sobre tecnolog\xedas emergentes"
                                     }, void 0, false, {
                                         fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                        lineNumber: 88,
+                                        lineNumber: 87,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("p", {
+                                        className: "text-base text-gray-500 max-w-2xl mx-auto leading-relaxed",
+                                        children: "Explora el futuro a trav\xe9s de narrativas inmersivas creadas especialmente para ti"
+                                    }, void 0, false, {
+                                        fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
+                                        lineNumber: 90,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("div", {
@@ -388,33 +388,33 @@ function Home() {
                                                 className: "w-2 h-2 bg-cyan-400 rounded-full animate-pulse"
                                             }, void 0, false, {
                                                 fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                                lineNumber: 92,
+                                                lineNumber: 94,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("div", {
                                                 className: "w-2 h-2 bg-purple-400 rounded-full animate-pulse delay-200"
                                             }, void 0, false, {
                                                 fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                                lineNumber: 93,
+                                                lineNumber: 95,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("div", {
                                                 className: "w-2 h-2 bg-pink-400 rounded-full animate-pulse delay-400"
                                             }, void 0, false, {
                                                 fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                                lineNumber: 94,
+                                                lineNumber: 96,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                        lineNumber: 91,
+                                        lineNumber: 93,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                lineNumber: 79,
+                                lineNumber: 81,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div, {
@@ -430,124 +430,231 @@ function Home() {
                                     delay: 1,
                                     duration: 0.8
                                 },
-                                className: "flex flex-col sm:flex-row gap-6 justify-center items-center mb-16",
-                                children: [
-                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.button, {
-                                        whileHover: {
-                                            scale: 1.05,
-                                            y: -2
-                                        },
-                                        whileTap: {
-                                            scale: 0.95
-                                        },
-                                        onClick: ()=>handleLanguageSelect("english"),
-                                        className: "group relative px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold rounded-xl shadow-2xl shadow-cyan-500/25 hover:shadow-cyan-500/40 transition-all duration-300 min-w-[200px]",
-                                        children: [
-                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("div", {
-                                                className: "absolute inset-0 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                                            }, void 0, false, {
-                                                fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                                lineNumber: 111,
-                                                columnNumber: 15
-                                            }, this),
-                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("div", {
-                                                className: "relative flex items-center justify-center space-x-2",
-                                                children: [
-                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("svg", {
-                                                        className: "w-5 h-5",
-                                                        fill: "currentColor",
-                                                        viewBox: "0 0 24 24",
-                                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("path", {
-                                                            d: "M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"
-                                                        }, void 0, false, {
-                                                            fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                                            lineNumber: 114,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                                        lineNumber: 113,
-                                                        columnNumber: 17
-                                                    }, this),
-                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("span", {
-                                                        children: "English Stories"
+                                className: "flex justify-center items-center mb-16",
+                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.button, {
+                                    whileHover: {
+                                        scale: 1.05,
+                                        y: -2
+                                    },
+                                    whileTap: {
+                                        scale: 0.95
+                                    },
+                                    onClick: handleStartStories,
+                                    className: "group relative px-12 py-5 bg-gradient-to-r from-purple-500 to-pink-600 text-white font-semibold rounded-xl shadow-2xl shadow-purple-500/25 hover:shadow-purple-500/40 transition-all duration-300 text-lg",
+                                    children: [
+                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("div", {
+                                            className: "absolute inset-0 bg-gradient-to-r from-purple-400 to-pink-500 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                                        }, void 0, false, {
+                                            fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
+                                            lineNumber: 113,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("div", {
+                                            className: "relative flex items-center justify-center space-x-3",
+                                            children: [
+                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("svg", {
+                                                    className: "w-6 h-6",
+                                                    fill: "currentColor",
+                                                    viewBox: "0 0 24 24",
+                                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("path", {
+                                                        d: "M8 5v14l11-7z"
                                                     }, void 0, false, {
                                                         fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
                                                         lineNumber: 116,
-                                                        columnNumber: 17
+                                                        columnNumber: 19
                                                     }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                                lineNumber: 112,
-                                                columnNumber: 15
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                        lineNumber: 105,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.button, {
-                                        whileHover: {
-                                            scale: 1.05,
-                                            y: -2
-                                        },
-                                        whileTap: {
-                                            scale: 0.95
-                                        },
-                                        onClick: ()=>handleLanguageSelect("spanish"),
-                                        className: "group relative px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-600 text-white font-semibold rounded-xl shadow-2xl shadow-purple-500/25 hover:shadow-purple-500/40 transition-all duration-300 min-w-[200px]",
+                                                }, void 0, false, {
+                                                    fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
+                                                    lineNumber: 115,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("span", {
+                                                    children: "Comenzar a crear cuentos"
+                                                }, void 0, false, {
+                                                    fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
+                                                    lineNumber: 118,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
+                                            lineNumber: 114,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
+                                    lineNumber: 107,
+                                    columnNumber: 13
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
+                                lineNumber: 101,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div, {
+                                initial: {
+                                    opacity: 0,
+                                    y: 20
+                                },
+                                animate: {
+                                    opacity: 1,
+                                    y: 0
+                                },
+                                transition: {
+                                    delay: 1.2,
+                                    duration: 0.8
+                                },
+                                className: "grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 max-w-4xl mx-auto",
+                                children: [
+                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("div", {
+                                        className: "bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10",
                                         children: [
                                             /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("div", {
-                                                className: "absolute inset-0 bg-gradient-to-r from-purple-400 to-pink-500 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                                                className: "w-12 h-12 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-lg flex items-center justify-center mb-4 mx-auto",
+                                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("svg", {
+                                                    className: "w-6 h-6 text-white",
+                                                    fill: "currentColor",
+                                                    viewBox: "0 0 24 24",
+                                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("path", {
+                                                        d: "M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.1 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"
+                                                    }, void 0, false, {
+                                                        fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
+                                                        lineNumber: 133,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
+                                                    lineNumber: 132,
+                                                    columnNumber: 17
+                                                }, this)
                                             }, void 0, false, {
                                                 fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                                lineNumber: 126,
+                                                lineNumber: 131,
                                                 columnNumber: 15
                                             }, this),
-                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("div", {
-                                                className: "relative flex items-center justify-center space-x-2",
-                                                children: [
-                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("svg", {
-                                                        className: "w-5 h-5",
-                                                        fill: "currentColor",
-                                                        viewBox: "0 0 24 24",
-                                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("path", {
-                                                            d: "M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"
-                                                        }, void 0, false, {
-                                                            fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                                            lineNumber: 129,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                                        lineNumber: 128,
-                                                        columnNumber: 17
-                                                    }, this),
-                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("span", {
-                                                        children: "Cuentos en Espa\xf1ol"
-                                                    }, void 0, false, {
-                                                        fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                                        lineNumber: 131,
-                                                        columnNumber: 17
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
+                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("h3", {
+                                                className: "text-lg font-semibold text-white mb-2",
+                                                children: "Historias Personalizadas"
+                                            }, void 0, false, {
                                                 fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                                lineNumber: 127,
+                                                lineNumber: 136,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("p", {
+                                                className: "text-gray-400 text-sm",
+                                                children: "Cada cuento es \xfanico y adaptado a tus intereses tecnol\xf3gicos"
+                                            }, void 0, false, {
+                                                fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
+                                                lineNumber: 137,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                        lineNumber: 120,
+                                        lineNumber: 130,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("div", {
+                                        className: "bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10",
+                                        children: [
+                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("div", {
+                                                className: "w-12 h-12 bg-gradient-to-r from-purple-400 to-pink-500 rounded-lg flex items-center justify-center mb-4 mx-auto",
+                                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("svg", {
+                                                    className: "w-6 h-6 text-white",
+                                                    fill: "currentColor",
+                                                    viewBox: "0 0 24 24",
+                                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("path", {
+                                                        d: "M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                                                    }, void 0, false, {
+                                                        fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
+                                                        lineNumber: 143,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
+                                                    lineNumber: 142,
+                                                    columnNumber: 17
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
+                                                lineNumber: 141,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("h3", {
+                                                className: "text-lg font-semibold text-white mb-2",
+                                                children: "Tecnolog\xeda Avanzada"
+                                            }, void 0, false, {
+                                                fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
+                                                lineNumber: 146,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("p", {
+                                                className: "text-gray-400 text-sm",
+                                                children: "Impulsado por inteligencia artificial de \xfaltima generaci\xf3n"
+                                            }, void 0, false, {
+                                                fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
+                                                lineNumber: 147,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
+                                        lineNumber: 140,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("div", {
+                                        className: "bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10",
+                                        children: [
+                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("div", {
+                                                className: "w-12 h-12 bg-gradient-to-r from-green-400 to-cyan-500 rounded-lg flex items-center justify-center mb-4 mx-auto",
+                                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("svg", {
+                                                    className: "w-6 h-6 text-white",
+                                                    fill: "currentColor",
+                                                    viewBox: "0 0 24 24",
+                                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("path", {
+                                                        d: "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                                                    }, void 0, false, {
+                                                        fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
+                                                        lineNumber: 153,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
+                                                    lineNumber: 152,
+                                                    columnNumber: 17
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
+                                                lineNumber: 151,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("h3", {
+                                                className: "text-lg font-semibold text-white mb-2",
+                                                children: "F\xe1cil de Usar"
+                                            }, void 0, false, {
+                                                fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
+                                                lineNumber: 156,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("p", {
+                                                className: "text-gray-400 text-sm",
+                                                children: "Interfaz intuitiva para una experiencia fluida"
+                                            }, void 0, false, {
+                                                fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
+                                                lineNumber: 157,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
+                                        lineNumber: 150,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                lineNumber: 99,
+                                lineNumber: 124,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div, {
@@ -558,37 +665,37 @@ function Home() {
                                     opacity: 1
                                 },
                                 transition: {
-                                    delay: 1.2,
+                                    delay: 1.4,
                                     duration: 0.8
                                 },
                                 className: "text-center",
                                 children: [
                                     /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("p", {
                                         className: "text-sm text-gray-500 max-w-lg mx-auto leading-relaxed",
-                                        children: "Powered by AI • Impulsado por IA"
+                                        children: "Impulsado por Inteligencia Artificial"
                                     }, void 0, false, {
                                         fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                        lineNumber: 143,
+                                        lineNumber: 168,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("p", {
                                         className: "text-xs text-gray-600 mt-2 max-w-lg mx-auto",
-                                        children: "Explore the future through immersive storytelling"
+                                        children: "Explora el futuro a trav\xe9s de narrativas inmersivas"
                                     }, void 0, false, {
                                         fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                        lineNumber: 146,
+                                        lineNumber: 171,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                lineNumber: 137,
+                                lineNumber: 162,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                        lineNumber: 38,
+                        lineNumber: 40,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.footer, {
@@ -599,39 +706,39 @@ function Home() {
                             opacity: 1
                         },
                         transition: {
-                            delay: 1.4,
+                            delay: 1.6,
                             duration: 0.8
                         },
                         className: "absolute bottom-4 left-0 right-0 text-center",
                         children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("div", {
                             className: "text-xs text-gray-600",
                             children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("p", {
-                                children: "\xa9 2025 TechTales Storyteller. Crafting tomorrow's stories today."
+                                children: "\xa9 2025 Creador de cuentos de Ciencia Ficci\xf3n. Creando las historias del ma\xf1ana, hoy."
                             }, void 0, false, {
                                 fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                                lineNumber: 160,
+                                lineNumber: 185,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                            lineNumber: 159,
+                            lineNumber: 184,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                        lineNumber: 153,
+                        lineNumber: 178,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-                lineNumber: 37,
+                lineNumber: 39,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "/home/ubuntu/techtales-landing/app/app/page.tsx",
-        lineNumber: 24,
+        lineNumber: 26,
         columnNumber: 5
     }, this);
 }
@@ -677,32 +784,31 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const metadata = {
-    title: "TechTales Storyteller | Contador de Cuentos de Ciencia Ficci\xf3n",
-    description: "A bilingual science fiction storyteller chatbot that creates unique stories about emerging technologies. Un contador de cuentos de ciencia ficci\xf3n biling\xfce que crea historias \xfanicas sobre tecnolog\xedas emergentes.",
-    keywords: "science fiction, storyteller, chatbot, AI, emerging technologies, bilingual, English, Spanish, sci-fi stories",
+    title: "Creador de cuentos de Ciencia Ficci\xf3n | Historias del futuro con IA",
+    description: "Descubre historias \xfanicas de ciencia ficci\xf3n sobre tecnolog\xedas emergentes. Un contador de cuentos impulsado por inteligencia artificial que crea narrativas personalizadas del futuro.",
+    keywords: "ciencia ficci\xf3n, cuentos, historias, inteligencia artificial, IA, tecnolog\xedas emergentes, narrativas del futuro, espa\xf1ol",
     authors: [
         {
-            name: "TechTales"
+            name: "Creador de cuentos de Ciencia Ficci\xf3n"
         }
     ],
     viewport: "width=device-width, initial-scale=1",
     robots: "index, follow",
     openGraph: {
-        title: "TechTales Storyteller | Contador de Cuentos de Ciencia Ficci\xf3n",
-        description: "A bilingual science fiction storyteller chatbot that creates unique stories about emerging technologies.",
+        title: "Creador de cuentos de Ciencia Ficci\xf3n",
+        description: "Descubre historias \xfanicas de ciencia ficci\xf3n sobre tecnolog\xedas emergentes impulsadas por IA.",
         type: "website",
-        locale: "en_US",
-        alternateLocale: "es_ES"
+        locale: "es_ES"
     },
     twitter: {
         card: "summary_large_image",
-        title: "TechTales Storyteller",
-        description: "A bilingual science fiction storyteller chatbot"
+        title: "Creador de cuentos de Ciencia Ficci\xf3n",
+        description: "Historias del futuro impulsadas por inteligencia artificial"
     }
 };
 function RootLayout({ children }) {
     return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("html", {
-        lang: "en",
+        lang: "es",
         children: [
             /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("head", {
                 children: [
@@ -711,7 +817,7 @@ function RootLayout({ children }) {
                         href: "/favicon.ico"
                     }, void 0, false, {
                         fileName: "/home/ubuntu/techtales-landing/app/app/layout.tsx",
-                        lineNumber: 37,
+                        lineNumber: 36,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("link", {
@@ -720,7 +826,7 @@ function RootLayout({ children }) {
                         href: "/apple-touch-icon.png"
                     }, void 0, false, {
                         fileName: "/home/ubuntu/techtales-landing/app/app/layout.tsx",
-                        lineNumber: 38,
+                        lineNumber: 37,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("link", {
@@ -730,7 +836,7 @@ function RootLayout({ children }) {
                         href: "/favicon-32x32.png"
                     }, void 0, false, {
                         fileName: "/home/ubuntu/techtales-landing/app/app/layout.tsx",
-                        lineNumber: 39,
+                        lineNumber: 38,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("link", {
@@ -740,13 +846,13 @@ function RootLayout({ children }) {
                         href: "/favicon-16x16.png"
                     }, void 0, false, {
                         fileName: "/home/ubuntu/techtales-landing/app/app/layout.tsx",
-                        lineNumber: 40,
+                        lineNumber: 39,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "/home/ubuntu/techtales-landing/app/app/layout.tsx",
-                lineNumber: 36,
+                lineNumber: 35,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("body", {
@@ -754,13 +860,13 @@ function RootLayout({ children }) {
                 children: children
             }, void 0, false, {
                 fileName: "/home/ubuntu/techtales-landing/app/app/layout.tsx",
-                lineNumber: 42,
+                lineNumber: 41,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "/home/ubuntu/techtales-landing/app/app/layout.tsx",
-        lineNumber: 35,
+        lineNumber: 34,
         columnNumber: 5
     }, this);
 }
@@ -793,7 +899,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/framer-motion"], () => (__webpack_exec__("(rsc)/../../../../opt/hostedapp/node/root/app/node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.tsx&appDir=%2Fhome%2Fubuntu%2Ftechtales-landing%2Fapp%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2Fhome%2Fubuntu%2Ftechtales-landing%2Fapp&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/framer-motion","vendor-chunks/next","vendor-chunks/@swc"], () => (__webpack_exec__("(rsc)/../../../../opt/hostedapp/node/root/app/node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.tsx&appDir=%2Fhome%2Fubuntu%2Ftechtales-landing%2Fapp%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2Fhome%2Fubuntu%2Ftechtales-landing%2Fapp&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();
