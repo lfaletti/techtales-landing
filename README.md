@@ -1,131 +1,131 @@
-# TechTales Storyteller - Landing Page
+# Creador de cuentos de Ciencia Ficción - Página de Inicio
 
-A bilingual landing page for TechTales Storyteller, a science fiction storytelling chatbot that creates immersive narratives in both English and Spanish.
+Una página de inicio bilingüe para el Creador de cuentos de Ciencia Ficción, un chatbot de narrativa de ciencia ficción que crea historias inmersivas tanto en inglés como en español.
 
-## 🌟 Features
+## 🌟 Características
 
-- **Bilingual Support**: Seamless language switching between English and Spanish
-- **Modern Design**: Clean, responsive interface built with Next.js and Tailwind CSS
-- **Interactive Elements**: Engaging user interface with smooth transitions
-- **Science Fiction Theme**: Immersive design that captures the essence of sci-fi storytelling
-- **Mobile Responsive**: Optimized for all device sizes
+- **Soporte Bilingüe**: Cambio fluido de idioma entre inglés y español
+- **Diseño Moderno**: Interfaz limpia y responsiva construida con Next.js y Tailwind CSS
+- **Elementos Interactivos**: Interfaz de usuario atractiva con transiciones suaves
+- **Tema de Ciencia Ficción**: Diseño inmersivo que captura la esencia de la narrativa sci-fi
+- **Responsivo Móvil**: Optimizado para todos los tamaños de dispositivo
 
-## 🚀 Getting Started
+## 🚀 Comenzando
 
-### Prerequisites
+### Prerrequisitos
 
 - Node.js 18+ 
-- npm or yarn package manager
+- Gestor de paquetes npm o yarn
 
-### Installation
+### Instalación
 
-1. Clone the repository:
+1. Clona el repositorio:
 ```bash
 git clone https://github.com/lfaletti/techtales-landing.git
 cd techtales-landing
 ```
 
-2. Install dependencies:
+2. Instala las dependencias:
 ```bash
 npm install
-# or
+# o
 yarn install
 ```
 
-3. Run the development server:
+3. Ejecuta el servidor de desarrollo:
 ```bash
 npm run dev
-# or
+# o
 yarn dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the landing page.
+4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver la página de inicio.
 
-## 🌍 Language Selection
+## 🌍 Selección de Idioma
 
-The landing page supports two languages:
+La página de inicio soporta dos idiomas:
 
-- **English**: Default language for international users
-- **Spanish**: Full Spanish translation for Spanish-speaking users
+- **Inglés**: Idioma predeterminado para usuarios internacionales
+- **Español**: Traducción completa al español para usuarios hispanohablantes
 
-Users can switch between languages using the language selector in the navigation bar. The selection is preserved across page refreshes.
+Los usuarios pueden cambiar entre idiomas usando el selector de idioma en la barra de navegación. La selección se conserva entre actualizaciones de página.
 
-## 📁 Project Structure
+## 📁 Estructura del Proyecto
 
 ```
 techtales-landing/
-├── app/                    # Next.js app directory
-├── components/             # Reusable React components
-├── public/                 # Static assets
-├── styles/                 # CSS and styling files
-├── lib/                    # Utility functions and configurations
-├── locales/               # Translation files
-└── README.md              # Project documentation
+├── app/                    # Directorio de la aplicación Next.js
+├── components/             # Componentes React reutilizables
+├── public/                 # Recursos estáticos
+├── styles/                 # Archivos CSS y de estilos
+├── lib/                    # Funciones de utilidad y configuraciones
+├── locales/               # Archivos de traducción
+└── README.md              # Documentación del proyecto
 ```
 
-## 🛠️ Built With
+## 🛠️ Construido Con
 
-- **Next.js 14**: React framework for production
-- **TypeScript**: Type-safe JavaScript
-- **Tailwind CSS**: Utility-first CSS framework
-- **React**: JavaScript library for building user interfaces
-- **Internationalization**: Built-in i18n support for bilingual content
+- **Next.js 14**: Framework de React para producción
+- **TypeScript**: JavaScript con tipado seguro
+- **Tailwind CSS**: Framework CSS utility-first
+- **React**: Biblioteca JavaScript para construir interfaces de usuario
+- **Internacionalización**: Soporte i18n integrado para contenido bilingüe
 
-## 🎨 Customization
+## 🎨 Personalización
 
-The landing page can be easily customized by:
+La página de inicio puede personalizarse fácilmente mediante:
 
-1. **Colors**: Modify the Tailwind CSS configuration in `tailwind.config.js`
-2. **Content**: Update text content in the locale files (`locales/en.json`, `locales/es.json`)
-3. **Components**: Modify React components in the `components/` directory
-4. **Styling**: Adjust styles using Tailwind classes or custom CSS
+1. **Colores**: Modifica la configuración de Tailwind CSS en `tailwind.config.js`
+2. **Contenido**: Actualiza el contenido de texto en los archivos de localización (`locales/en.json`, `locales/es.json`)
+3. **Componentes**: Modifica los componentes React en el directorio `components/`
+4. **Estilos**: Ajusta los estilos usando clases de Tailwind o CSS personalizado
 
-## 📱 Responsive Design
+## 📱 Diseño Responsivo
 
-The landing page is fully responsive and optimized for:
+La página de inicio es completamente responsiva y está optimizada para:
 
-- Desktop computers (1024px+)
-- Tablets (768px - 1023px)
-- Mobile phones (320px - 767px)
+- Computadoras de escritorio (1024px+)
+- Tabletas (768px - 1023px)
+- Teléfonos móviles (320px - 767px)
 
-## 🚀 Deployment
+## 🚀 Despliegue
 
-### Vercel (Recommended)
+### Vercel (Recomendado)
 
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Deploy with zero configuration
+1. Sube tu código a GitHub
+2. Conecta tu repositorio a Vercel
+3. Despliega con configuración cero
 
-### Other Platforms
+### Otras Plataformas
 
-The application can be deployed to any platform that supports Next.js:
+La aplicación puede desplegarse en cualquier plataforma que soporte Next.js:
 
 - Netlify
 - AWS Amplify
 - Heroku
 - DigitalOcean App Platform
 
-## 🤝 Contributing
+## 🤝 Contribuyendo
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+1. Haz fork del repositorio
+2. Crea una rama de característica (`git checkout -b feature/caracteristica-increible`)
+3. Confirma tus cambios (`git commit -m 'Agregar alguna característica increíble'`)
+4. Sube a la rama (`git push origin feature/caracteristica-increible`)
+5. Abre un Pull Request
 
-## 📄 License
+## 📄 Licencia
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
 
-## 🔗 Related Projects
+## 🔗 Proyectos Relacionados
 
-- **TechTales Storyteller**: The main chatbot application
-- **TechTales API**: Backend services for story generation
+- **Creador de cuentos de Ciencia Ficción**: La aplicación principal del chatbot
+- **TechTales API**: Servicios backend para la generación de historias
 
-## 📞 Support
+## 📞 Soporte
 
-For support, please open an issue in the GitHub repository or contact the development team.
+Para soporte, por favor abre un issue en el repositorio de GitHub o contacta al equipo de desarrollo.
 
 ---
 
-**TechTales Storyteller** - Where science fiction meets interactive storytelling 🚀✨
+**Creador de cuentos de Ciencia Ficción** - Donde la ciencia ficción se encuentra con la narrativa interactiva 🚀✨
