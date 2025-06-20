@@ -88,9 +88,39 @@ La página de inicio es completamente responsiva y está optimizada para:
 - Tabletas (768px - 1023px)
 - Teléfonos móviles (320px - 767px)
 
+## 🌐 Despliegue
+
+### URLs de Producción en Vercel
+
+La aplicación está desplegada en Vercel y disponible en las siguientes URLs:
+
+- **URL Principal**: [https://app-omega-amber.vercel.app](https://app-omega-amber.vercel.app)
+- **URL Alternativa 1**: [https://app-6lnm3jytm-lucianos-projects-f80aee7b.vercel.app](https://app-6lnm3jytm-lucianos-projects-f80aee7b.vercel.app)
+- **URL Alternativa 2**: [https://app-falettiluciano-4937-lucianos-projects-f80aee7b.vercel.app](https://app-falettiluciano-4937-lucianos-projects-f80aee7b.vercel.app)
+
+### Script de Despliegue Automatizado
+
+El proyecto incluye un script de despliegue automatizado (`deploy_to_vercel.sh`) que facilita el proceso de despliegue:
+
+```bash
+# Hacer el script ejecutable (solo la primera vez)
+chmod +x deploy_to_vercel.sh
+
+# Ejecutar el despliegue
+./deploy_to_vercel.sh
+```
+
+**Características del script:**
+- Instala automáticamente Vercel CLI si no está presente
+- Construye el proyecto localmente para verificar errores
+- Despliega a Vercel con configuración optimizada
+- Proporciona URLs de despliegue al completarse
+
+**Nota**: La primera vez que ejecutes el script, es posible que necesites autenticarte con Vercel usando `vercel login`.
+
 ### Otras Plataformas
 
-La aplicación puede desplegarse en cualquier plataforma que soporte Next.js:
+La aplicación también puede desplegarse en cualquier plataforma que soporte Next.js:
 
 - Netlify
 - AWS Amplify
