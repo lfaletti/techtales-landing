@@ -88,14 +88,6 @@ La página de inicio es completamente responsiva y está optimizada para:
 - Tabletas (768px - 1023px)
 - Teléfonos móviles (320px - 767px)
 
-## 🚀 Despliegue
-
-### Vercel (Recomendado)
-
-1. Sube tu código a GitHub
-2. Conecta tu repositorio a Vercel
-3. Despliega con configuración cero
-
 ### Otras Plataformas
 
 La aplicación puede desplegarse en cualquier plataforma que soporte Next.js:
@@ -104,28 +96,5 @@ La aplicación puede desplegarse en cualquier plataforma que soporte Next.js:
 - AWS Amplify
 - Heroku
 - DigitalOcean App Platform
-
-## 🤝 Contribuyendo
-
-1. Haz fork del repositorio
-2. Crea una rama de característica (`git checkout -b feature/caracteristica-increible`)
-3. Confirma tus cambios (`git commit -m 'Agregar alguna característica increíble'`)
-4. Sube a la rama (`git push origin feature/caracteristica-increible`)
-5. Abre un Pull Request
-
-## 📄 Licencia
-
-Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
-
-## 🔗 Proyectos Relacionados
-
-- **Creador de cuentos de Ciencia Ficción**: La aplicación principal del chatbot
-- **TechTales API**: Servicios backend para la generación de historias
-
-## 📞 Soporte
-
-Para soporte, por favor abre un issue en el repositorio de GitHub o contacta al equipo de desarrollo.
-
----
 
 **Creador de cuentos de Ciencia Ficción** - Donde la ciencia ficción se encuentra con la narrativa interactiva 🚀✨
